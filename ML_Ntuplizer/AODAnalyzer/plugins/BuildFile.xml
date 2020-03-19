@@ -1,0 +1,35 @@
+<use name="CommonTools/Utils"/>
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="DataFormats/Common"/>
+<use name="DataFormats/TrackReco"/>
+<use name="DataFormats/TrackingRecHit"/>
+<use name="DataFormats/Candidate"/>
+<use name="DataFormats/PatCandidates"/>
+<use name="PhysicsTools/Utilities"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="CommonTools/CandUtils"/>
+<use name="DataFormats/EgammaReco"/> <!-- added because of SuperCluster -->
+<use name="DataFormats/EgammaCandidates"/> <!-- added because of GsfElectron and Photon -->
+<use name="DataFormats/RecoCandidate"/> 
+<use name="DataFormats/MuonReco"/>    <!-- added because of Muon -->
+<use name="DataFormats/METReco"/>    <!-- added because of PFMet -->
+<use name="DataFormats/EcalRecHit"/> <!-- added because of Ecalrec... -->
+<use name="DataFormats/HcalRecHit"/> <!-- added because of Hcalrec... -->
+<use name="DataFormats/JetReco"/>
+<use name="DataFormats/CaloRecHit"/>
+<use name="DataFormats/Scalers"/>
+<use name="HLTrigger/HLTcore"/>
+
+<library name="AODAnalyzerAODAnalyzer" file="*.cc">
+   <use name="AODAnalyzer/AODAnalyzer"/>
+   <use name="root"/>
+   <use name="rootrflx"/>
+   <use name="rootmath"/>
+   <Flags EDM_PLUGIN="1"/>
+</library>
+
+<export>
+  <lib   name="1"/>
+</export>
