@@ -39,4 +39,7 @@ All dataset below should be available on disk, in the case they are not, please 
 
 <br />
 
-(at the moment of writing SingleMuon arte not yet fully completed)
+* /SingleMuon/Run2018A-12Nov2019_UL2018-v2/DQMIO
+* /SingleMuon/Run2018B-12Nov2019_UL2018-v2/DQMIO
+* /SingleMuon/Run2018C-12Nov2019_UL2018-v2/DQMIO
+* /SingleMuon/Run2018D-12Nov2019_UL2018-v3/DQMIO
