@@ -1,3 +1,4 @@
 *  **NMF_approach.ipynb and Autoencoder_approach.ipynb** are very generic notebooks to start using the corresponding algorithms
 *  **MSE_Study_Generic.py** is a collection of cells to study anomalies on a generic histogram. It builds a simple model (AE in the example) and contains tools to plot the MSE trend per run, the superimposition of the original and reco plots and possibly can be extended to dump in output a JSON file with relevant run-ls
+*  **Standard_AE_Step-by-Step.ipynb** is the basic example of using a single AE. Basically the training is done on GOOD data only from Golden Json
 *  **Double_AE_Step-by-Step.ipynb** is an example of using a simple AE to select data for training a more complex AE, useful especially for Pixel Layer 1 studies in 2017, where Golden Json data are polluted by some detector misconfiguration
